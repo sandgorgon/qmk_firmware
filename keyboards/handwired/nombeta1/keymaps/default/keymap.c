@@ -36,10 +36,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
 
     [_MOUSE_] = LAYOUT_ortho_5x14(
-        KC_TRANSPARENT, KC_NO,       KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,      KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
-        KC_TRANSPARENT, KC_MS_BTN3,  KC_MS_BTN2,     KC_MS_UP,       KC_MS_BTN1,     KC_NO,          KC_NO,          KC_NO,      KC_NO,          KC_LEFT_SHIFT,  KC_MS_WH_UP,    KC_LEFT_CTRL,   KC_NO,          KC_NO,
-        KC_TRANSPARENT, KC_DELETE,   KC_MS_LEFT,     KC_MS_DOWN,     KC_MS_RIGHT,    KC_MS_BTN4,     KC_NO,          KC_NO,      KC_NO,          KC_MS_WH_LEFT,  KC_MS_WH_DOWN,  KC_MS_WH_RIGHT, KC_NO,          KC_NO,
-        KC_TRANSPARENT, KC_NO,       KC_NO,          KC_NO,          KC_NO,          KC_MS_BTN5,     KC_NO,          KC_NO,      KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
-        KC_TRANSPARENT, TO(_SUPER_), KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, TO(_BASE_), KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_NO
+        KC_TRANSPARENT, KC_NO,       KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT,  KC_TRANSPARENT, KC_NO,          KC_NO,           KC_NO,          KC_NO,          KC_NO,          KC_NO,
+        KC_TRANSPARENT, KC_MS_BTN3,  KC_MS_BTN2,     KC_MS_UP,       KC_MS_BTN1,     KC_MS_BTN4,     KC_TRANSPARENT,  KC_TRANSPARENT, KC_PAGE_UP,     KC_RIGHT_SHIFT,  KC_MS_WH_UP,    KC_RIGHT_CTRL,  KC_BACKSPACE,   KC_NO,
+        KC_TRANSPARENT, KC_DELETE,   KC_MS_LEFT,     KC_MS_DOWN,     KC_MS_RIGHT,    KC_MS_BTN5,     KC_NO,           KC_NO,          KC_PAGE_DOWN,   KC_MS_WH_LEFT,   KC_MS_WH_DOWN,  KC_MS_WH_RIGHT, KC_DELETE,      KC_NO,
+        KC_TRANSPARENT, KC_NO,       KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,           KC_NO,          KC_NO,          KC_NO,           KC_NO,          KC_NO,          KC_NO,          KC_TRANSPARENT,
+        KC_TRANSPARENT, TO(_SUPER_), KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,  TO(_BASE_),     KC_TRANSPARENT, KC_TRANSPARENT,  KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT
     )
 };
